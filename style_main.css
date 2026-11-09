@@ -1,9 +1,52 @@
-.head{   
-    padding: 25px;
+/*margin: Xpx;*/
+
+
+.header{  
+    display: flex;
+    
+    padding: 25px; 
+    background-color: #2E6F40;
+    
+    border-style: outset;
+    
+    align-items: center;
+
+    height: 100px;
 }
 
 .body{
-    padding: 25px;
+    margin: 0px;
+}
+html{
+    margin: 0px;
+}
+
+.navmenu{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    a,button:hover{
+        background-color: #275e36;
+		}
+}
+.navmenu > button{
     
+    text-decoration: none;
+    display: flex;
+    border-style: outset;
+    border-color: white;
+    color: white;
+    
+    justify-content: center;
+    align-items: center;
+    height: 50px;
     background-color: #2E6F40;
+    padding: 10px;
+}
+.maintext{
+    margin-top: 2rem;
+    text-indent: 4em;
+}
+.iframemain{
+    width: 100%;
+    border:none;
 }
