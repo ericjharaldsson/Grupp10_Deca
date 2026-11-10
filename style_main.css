@@ -1,12 +1,15 @@
 /*margin: Xpx;*/
-
-
+@import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&family=Comfortaa:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 .header{  
     display: flex;
     
     padding: 25px; 
     background-color: #2E6F40;
-    
+    font-family: "Orbitron", sans-serif;
+    font-size: xx-large;
     border-style: outset;
     
     align-items: center;
@@ -19,6 +22,9 @@
 }
 html{
     margin: 0px;
+}
+h2{
+    font-family: "Comfortaa", sans-serif;
 }
 
 .navmenu{
@@ -45,6 +51,7 @@ html{
 .maintext{
     margin-top: 2rem;
     text-indent: 4em;
+    font-family: "Times new roman"
 }
 .iframemain{
     width: 100%;
